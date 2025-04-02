@@ -67,7 +67,12 @@ http://localhost:8080/
 http://localhost:8080/product
 ```
 # 📸 Screenshots
-
+![Image](https://github.com/user-attachments/assets/d26445f1-a888-4dc6-9c71-b7cb138591d4)
+![Image](https://github.com/user-attachments/assets/3cddb9b8-a76b-4211-a8b1-f079308d0302)
+![Image](https://github.com/user-attachments/assets/4c4fae5f-688f-4a5d-aae0-1d15da73c4a1)
+![Image](https://github.com/user-attachments/assets/bb53aa0a-62e2-4e98-a120-2af5a0db65e0)
+![Image](https://github.com/user-attachments/assets/9d997014-313f-43d6-8d56-362d9eb93fa9)
+![Image](https://github.com/user-attachments/assets/45f5c872-b5f0-4142-937b-9945d15fa913)
 ## 📄 License
 ***MIT License***
 + Customize this admin panel by editing configuration files in app/Config and modifying views in app/Views
