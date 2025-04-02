@@ -35,12 +35,19 @@ A modern admin dashboard built with CodeIgniter 4 framework featuring data visua
 
 ## 📦 Installation
 
-1. Clone repository:
+1. **Clone repository:**
    ```bash
    git clone https://github.com/YonatanKinfe/AdminDashboard-CodeIgniter4.git
    cd AdminDashboard-CodeIgniter4
   ```
-2. Install dependencies:
+2. **Install dependencies:**
  ```bash
-composer install
+   composer install
 ```
+3 **Configure database**:
+- Create MySQL database example blog
+- Create Table as you need
+- Edite the database configuration file
+- **NB** change the port to default port of mysql 
+
+Update .env file:
