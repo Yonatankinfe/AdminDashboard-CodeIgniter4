@@ -1,0 +1,356 @@
+CRITICAL - 2025-04-01 08:26:48 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "welcome_message.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('welcome_message', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\shop\\public\\index.php')
+CRITICAL - 2025-04-01 11:23:55 --> ErrorException: Undefined variable $total_product
+[Method: GET, Route: /]
+in APPPATH\Views\product\index.php on line 398.
+ 1 APPPATH\Views\product\index.php(398): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_product', 'C:\\wamp64\\www\\shop\\app\\Views\\product\\index.php', 398)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\shop\\app\\Views\\product\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('product/index', [], true)
+ 5 APPPATH\Controllers\ProductController.php(14): view('product/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\shop\\public\\index.php')
+CRITICAL - 2025-04-01 11:24:03 --> ErrorException: Undefined variable $total_product
+[Method: GET, Route: product]
+in APPPATH\Views\product\index.php on line 398.
+ 1 APPPATH\Views\product\index.php(398): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_product', 'C:\\wamp64\\www\\shop\\app\\Views\\product\\index.php', 398)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\shop\\app\\Views\\product\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('product/index', [], true)
+ 5 APPPATH\Controllers\ProductController.php(14): view('product/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\shop\\public\\index.php')
+CRITICAL - 2025-04-01 11:24:03 --> ErrorException: Undefined variable $total_product
+[Method: GET, Route: product]
+in APPPATH\Views\product\index.php on line 398.
+ 1 APPPATH\Views\product\index.php(398): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_product', 'C:\\wamp64\\www\\shop\\app\\Views\\product\\index.php', 398)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\shop\\app\\Views\\product\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('product/index', [], true)
+ 5 APPPATH\Controllers\ProductController.php(14): view('product/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\shop\\public\\index.php')
+CRITICAL - 2025-04-01 11:24:44 --> ErrorException: Undefined variable $total_product
+[Method: GET, Route: /]
+in APPPATH\Views\product\index.php on line 398.
+ 1 APPPATH\Views\product\index.php(398): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_product', 'C:\\wamp64\\www\\shop\\app\\Views\\product\\index.php', 398)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\shop\\app\\Views\\product\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('product/index', [], true)
+ 5 APPPATH\Controllers\ProductController.php(14): view('product/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\shop\\public\\index.php')
+DEBUG - 2025-04-01 11:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-01 12:15:16 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: product]
+in APPPATH\Views\product\index.php on line 1355.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('product/index', [], true)
+ 3 APPPATH\Controllers\ProductController.php(14): view('product/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\shop\\public\\index.php')
+CRITICAL - 2025-04-01 12:35:36 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: product]
+in APPPATH\Views\product\index.php on line 1354.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('product/index', [], true)
+ 3 APPPATH\Controllers\ProductController.php(14): view('product/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\shop\\public\\index.php')
+CRITICAL - 2025-04-01 12:36:57 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: product]
+in APPPATH\Views\product\index.php on line 1351.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('product/index', [], true)
+ 3 APPPATH\Controllers\ProductController.php(14): view('product/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\shop\\public\\index.php')
+CRITICAL - 2025-04-01 12:36:59 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: product]
+in APPPATH\Views\product\index.php on line 1351.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('product/index', [], true)
+ 3 APPPATH\Controllers\ProductController.php(14): view('product/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\shop\\public\\index.php')
+CRITICAL - 2025-04-01 12:39:55 --> ErrorException: Undefined variable $topPost
+[Method: GET, Route: product]
+in APPPATH\Views\product\index.php on line 420.
+ 1 APPPATH\Views\product\index.php(420): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $topPost', 'C:\\wamp64\\www\\shop\\app\\Views\\product\\index.php', 420)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\shop\\app\\Views\\product\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('product/index', [], true)
+ 5 APPPATH\Controllers\ProductController.php(14): view('product/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\shop\\public\\index.php')
+CRITICAL - 2025-04-01 12:43:52 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: product]
+in APPPATH\Models\ProductModel.php on line 15.
+ 1 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\wamp64\\www\\shop\\vendor\\composer/../../app\\Models\\ProductModel.php')
+ 2 APPPATH\Controllers\ProductController.php(12): Composer\Autoload\ClassLoader->loadClass('App\\Models\\ProductModel')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\shop\\public\\index.php')
+CRITICAL - 2025-04-01 12:48:45 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\ProductModel::getTotalPosts
+[Method: GET, Route: product]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\ProductController.php(16): CodeIgniter\Model->__call('getTotalPosts', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\shop\\public\\index.php')
+CRITICAL - 2025-04-01 12:54:50 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\ProductModel::getTotalPosts
+[Method: GET, Route: product]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\ProductController.php(16): CodeIgniter\Model->__call('getTotalPosts', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\shop\\public\\index.php')
+CRITICAL - 2025-04-01 12:54:51 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\ProductModel::getTotalPosts
+[Method: GET, Route: product]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\ProductController.php(16): CodeIgniter\Model->__call('getTotalPosts', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\shop\\public\\index.php')
+CRITICAL - 2025-04-01 12:55:12 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\ProductModel::getTotalPosts
+[Method: GET, Route: product]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\ProductController.php(16): CodeIgniter\Model->__call('getTotalPosts', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\shop\\public\\index.php')
+CRITICAL - 2025-04-01 12:55:16 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\ProductModel::getTotalPosts
+[Method: GET, Route: product]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\ProductController.php(16): CodeIgniter\Model->__call('getTotalPosts', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\shop\\public\\index.php')
+CRITICAL - 2025-04-01 13:01:12 --> ParseError: syntax error, unexpected variable "$rate", expecting "," or ";"
+[Method: GET, Route: product]
+in APPPATH\Views\product\index.php on line 31.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('product/index', [], true)
+ 3 APPPATH\Controllers\ProductController.php(17): view('product/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\shop\\public\\index.php')
+CRITICAL - 2025-04-01 13:07:51 --> ErrorException: Undefined variable $totalRateSum
+[Method: GET, Route: product]
+in APPPATH\Views\product\index.php on line 35.
+ 1 APPPATH\Views\product\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalRateSum', 'C:\\wamp64\\www\\shop\\app\\Views\\product\\index.php', 35)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\shop\\app\\Views\\product\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('product/index', [], true)
+ 5 APPPATH\Controllers\ProductController.php(17): view('product/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\shop\\public\\index.php')
+CRITICAL - 2025-04-01 13:08:57 --> ErrorException: Undefined variable $totalRateSum
+[Method: GET, Route: product]
+in APPPATH\Views\product\index.php on line 35.
+ 1 APPPATH\Views\product\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalRateSum', 'C:\\wamp64\\www\\shop\\app\\Views\\product\\index.php', 35)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\shop\\app\\Views\\product\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('product/index', [], true)
+ 5 APPPATH\Controllers\ProductController.php(17): view('product/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\shop\\public\\index.php')
+CRITICAL - 2025-04-01 13:22:16 --> ErrorException: Undefined variable $maxRate
+[Method: GET, Route: product]
+in APPPATH\Views\product\index.php on line 422.
+ 1 APPPATH\Views\product\index.php(422): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $maxRate', 'C:\\wamp64\\www\\shop\\app\\Views\\product\\index.php', 422)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\shop\\app\\Views\\product\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('product/index', [], true)
+ 5 APPPATH\Controllers\ProductController.php(17): view('product/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\shop\\public\\index.php')
+CRITICAL - 2025-04-01 13:22:38 --> ErrorException: Undefined variable $maxRate
+[Method: GET, Route: product]
+in APPPATH\Views\product\index.php on line 422.
+ 1 APPPATH\Views\product\index.php(422): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $maxRate', 'C:\\wamp64\\www\\shop\\app\\Views\\product\\index.php', 422)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\shop\\app\\Views\\product\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('product/index', [], true)
+ 5 APPPATH\Controllers\ProductController.php(17): view('product/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\shop\\public\\index.php')
+CRITICAL - 2025-04-01 13:22:47 --> ErrorException: Undefined variable $maxRate
+[Method: GET, Route: product]
+in APPPATH\Views\product\index.php on line 422.
+ 1 APPPATH\Views\product\index.php(422): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $maxRate', 'C:\\wamp64\\www\\shop\\app\\Views\\product\\index.php', 422)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\shop\\app\\Views\\product\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('product/index', [], true)
+ 5 APPPATH\Controllers\ProductController.php(17): view('product/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\shop\\public\\index.php')
+CRITICAL - 2025-04-01 13:54:19 --> ErrorException: Undefined array key "progress"
+[Method: GET, Route: product]
+in APPPATH\Views\product\index.php on line 606.
+ 1 APPPATH\Views\product\index.php(606): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "progress"', 'C:\\wamp64\\www\\shop\\app\\Views\\product\\index.php', 606)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\shop\\app\\Views\\product\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('product/index', [], true)
+ 5 APPPATH\Controllers\ProductController.php(17): view('product/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\shop\\public\\index.php')
+CRITICAL - 2025-04-01 13:55:37 --> ErrorException: Undefined array key "progress"
+[Method: GET, Route: product]
+in APPPATH\Views\product\index.php on line 612.
+ 1 APPPATH\Views\product\index.php(612): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "progress"', 'C:\\wamp64\\www\\shop\\app\\Views\\product\\index.php', 612)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\shop\\app\\Views\\product\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('product/index', [], true)
+ 5 APPPATH\Controllers\ProductController.php(17): view('product/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\shop\\public\\index.php')
+CRITICAL - 2025-04-01 13:57:49 --> ErrorException: Undefined variable $total_post
+[Method: GET, Route: product]
+in APPPATH\Views\product\index.php on line 346.
+ 1 APPPATH\Views\product\index.php(346): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_post', 'C:\\wamp64\\www\\shop\\app\\Views\\product\\index.php', 346)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\shop\\app\\Views\\product\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('product/index', [], true)
+ 5 APPPATH\Controllers\ProductController.php(17): view('product/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\shop\\public\\index.php')
+CRITICAL - 2025-04-01 14:23:09 --> ErrorException: Undefined variable $total_post
+[Method: GET, Route: product]
+in APPPATH\Views\product\index.php on line 345.
+ 1 APPPATH\Views\product\index.php(345): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_post', 'C:\\wamp64\\www\\shop\\app\\Views\\product\\index.php', 345)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\wamp64\\www\\shop\\app\\Views\\product\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('product/index', [], true)
+ 5 APPPATH\Controllers\ProductController.php(17): view('product/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\shop\\public\\index.php')
