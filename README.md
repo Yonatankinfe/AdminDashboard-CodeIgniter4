@@ -36,18 +36,38 @@ A modern admin dashboard built with CodeIgniter 4 framework featuring data visua
 ## 📦 Installation
 
 1. **Clone repository:**
-   ```bash
+```bash
    git clone https://github.com/YonatanKinfe/AdminDashboard-CodeIgniter4.git
    cd AdminDashboard-CodeIgniter4
-  ```
+```
 2. **Install dependencies:**
- ```bash
+```bash
    composer install
 ```
 3 **Configure database**:
 - Create MySQL database example blog
 - Create Table as you need
 - Edite the database configuration file
-- **NB** change the port to default port of mysql 
+- **NB** change the port to default port of mysql
+- Import database/admin_panel.sql
+- Update .env file:
+```bash
+database.default.hostname = localhost
+database.default.database = your_db_name
+database.default.username = your_db_user
+database.default.password = your_db_pass
+```
+4 **Serve application:**
+```bash
+php spark serve
+```
+5 **Access dashboard:**
+```bash
+http://localhost:8080/
+http://localhost:8080/product
+```
+# 📸 Screenshots
 
-Update .env file:
+## 📄 License
+***MIT License***
++ Customize this admin panel by editing configuration files in app/Config and modifying views in app/Views
