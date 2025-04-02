@@ -42,5 +42,5 @@ A modern admin dashboard built with CodeIgniter 4 framework featuring data visua
   ```
 2. Install dependencies:
  ```bash
-    composer install
-  ```
+  composer install
+```
